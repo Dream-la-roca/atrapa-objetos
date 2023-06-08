@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Atrapa obetos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body background="background.jpeg">
+  <center>
+    <h3 class="btn-primary heading">App web de identificación de imágenes en tiempo real
+      <hr>
+      <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 btn-default heading_div ">
+          Utilizamos Mobilenet como modelo
+          <br>
+            El modelo Mobilenet está entrenado en <br> más de 1.3 millones de imágenes
+        </div>
+      </center>
+      <br>
+    </h3>
+    <br><br>
+
+    <p class="btn btn-success btn-lg">Objeto:
+      <span id="objeto"></span>
+    </p>
+
+    <br><br>
+    <p class="btn btn-success btn-lg">Precisión:
+      <span id="confianza"></span>
+    </p>
+
+  </center>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+}
+.heading{
+    margin-top: 0;
+    box-shadow: 5px 5px 5px black;
+}
+.heading_div{
+float: none;
+border-radius: 20px;
+padding: 15px 0px;
+box-shadow: 5px 5px 5px black;
+}
